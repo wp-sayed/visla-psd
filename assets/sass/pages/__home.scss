@@ -1,0 +1,145 @@
+/*=========cta section================*/
+.cta{
+	background: $button-bg;
+	padding: 2rem 0px;
+	.container{
+		.content{
+			color: $text-white;
+			h2{
+				font-size: 2rem;
+			}
+		}
+
+		.cta-btn{
+			text-align: right;
+			margin-top: 0.5rem;
+			.visla-button{
+				background: #fff!important;
+				color: #000;
+				font-weight: normal;
+				font-size: 14px;
+			}
+		}
+	}
+}
+
+/*========why choose us============*/
+.why{
+	background: $theme-bg;
+	padding: 50px 0px;
+	.container{
+		.content{
+			padding: 3rem 0rem;
+			.title{
+				h2{
+					font-size: 2rem;
+					color: $text-dark;
+					font-weight: bold;
+
+					&::after{
+						content:'';
+						display: block;
+						background: $button-bg;
+						width: 6rem;
+						height: 4px;
+						margin-top: 11px;
+						text-align: center;
+					}
+				}
+			}
+		}
+		.service-item{
+			color: $text-white;
+			position: relative;
+			padding-left: 5.75rem;
+			.icon{
+				position: absolute;
+				top: 0;
+				left: 0;
+				i{
+					font-size: 3rem;
+					color: $button-bg;
+				}
+			}
+		}
+		h2{
+			color: $text-dark;
+			font-size: 1.25rem;
+		}
+		p{
+			color: $text-dark;
+			font-size: 1rem;
+		}
+	}
+
+	.discuss{
+		margin-top: 47px;
+	}
+}
+
+/*=========project gallary===========*/
+.our-project{
+	padding: 4rem 0rem;
+	.container{
+		.project-menu{
+			padding: 20px 0px;
+			button{
+				border:none;
+				padding: 10px 20px;
+				background: #000;
+				color: #fff;
+			}
+		}
+	}
+}
+
+/*=========news section=======*/
+.news{
+	padding: 30px 0px;
+	background: $bg-white;
+	.container{
+		.news-left{
+			.news-img{
+				img{
+					height: 300px;
+				}
+			}
+		}
+
+		.news-item{
+			position: relative;
+			padding-left: 220px;
+			margin-top: -16px;
+			margin-bottom: 30px;
+			.news-img{
+				position: absolute;
+				top: 0;
+				left: 0;
+				img{
+					width: 177px;
+					height: 140px;
+				}
+			}
+		}
+	}
+}
+
+
+/*=======dream area========*/
+.dream{
+	padding: 20px 0px;
+	background: #fafafa;
+	.container{
+
+		.content{
+			margin-top: 100px;
+		}
+		.worker-img{
+			margin-bottom: -20px;
+			img{
+				width: 100%;
+
+			}
+		}
+	}
+}

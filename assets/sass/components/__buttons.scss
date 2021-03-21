@@ -1,0 +1,26 @@
+.visla-button{
+	display: inline-block;
+	background: $button-bg;
+	padding: 0px 40px;
+	line-height: 3rem;
+	text-align: center;
+	color: $text-white;
+	text-transform: uppercase;
+	font-weight: bold;
+	&:hover{
+		color: #fff;
+	}
+}
+
+.visla-button-sm{
+	display: inline-block;
+	background: $button-bg;
+	padding: 0px 10px;
+	line-height: 2rem;
+	text-align: center;
+	color: $text-white;
+	text-transform: uppercase;
+	&:hover{
+		color: #fff;
+	}
+}

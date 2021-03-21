@@ -1,0 +1,34 @@
+.topbar{
+	background: #f7f7f7;
+	.container{
+		@include container;
+		.topbar-left{
+			ul{
+				margin-top: 8px;
+				li{
+					display: inline-block;
+					color: #c4c4c4;
+					padding: 0px 10px;
+					i{
+						margin-left:  2px;
+					}
+				}
+			}
+		}
+		.topbar-right{
+			ul{
+				text-align: right;
+				li{
+					display: inline-block;
+					a{
+						display: block;
+						color: #636363;
+						padding: 0px 20px;
+						line-height: 40px;
+					}
+				}
+			}
+		}
+
+	}
+}

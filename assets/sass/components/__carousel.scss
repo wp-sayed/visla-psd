@@ -1,0 +1,77 @@
+.slider{
+	.slider-active{
+	   .single-slider{
+	   		height: 100vh;
+	   		background-position: center center;
+	   		background-repeat: no-repeat;
+	   		background-size: cover;
+	      .slider-content{
+	      	@include mid-con;
+	      	text-align: center;
+	      	color: $text-white;
+	      	h2{
+	      		font-size: 3rem;
+	      		font-weight: 400;
+	      	}
+	      	p{
+	      		font-size: 16px;
+	      	}
+	      }
+	   }
+
+	   @media screen and (max-width: 992px){
+	   	  .single-slider{
+	   	  	.slider-content{
+	   	  		h2{
+	   	  			font-size: 2rem;
+	   	  		}
+	   	  	}
+	   	  }
+	   }
+	   .s-1{
+	   		background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)),url(../media/img/s1.jpg);
+	   }
+	   .s-2{
+	      background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)),url(../media/img/s2.jpg);
+	   }
+	   .s-3{
+	      background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)),url(../media/img/s3.jpg);
+	   }
+	}
+
+	.owl-dots{
+		text-align: center;
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 1%;
+		.owl-dot{
+			width: 10px;
+			height: 10px;
+			background: $text-white;
+			margin: 5px;
+			border-radius: 50%;
+			&.active{
+				background: $button-bg;
+			}
+		}
+	}
+}
+
+
+/*===================our partner carousel========================*/
+.partner-slider{
+	padding: 60px 0px;
+	background: green;
+	.slider-actives{
+		display: inline-block;
+		.single-slider{
+			display: inline-block;
+			width: 200px;
+			height: 100px;
+			img{
+				 
+			}
+		}
+	}
+}

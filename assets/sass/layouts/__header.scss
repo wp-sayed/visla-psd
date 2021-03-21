@@ -1,0 +1,56 @@
+.header{
+	background: $header-bg;
+	padding: 10px 0px;
+	border-bottom:.3px solid rgba(255,255,255,0.7) ;
+	.container{
+		@include container;
+		.logo{
+			a{
+				font-weight: bold;
+				font-size: 30px;
+				color: #f9b707;
+				display: inline-block;
+			}
+		}
+		.main-menu{
+			.res-menu{
+				color: red;
+				display: none;
+			}
+			ul{
+				text-align: right;
+				li{
+					display: inline-block;
+					a{
+						display: block;
+						color: $text-dark;
+						padding: 10px 20px;
+						font-size: 14px;
+						font-weight: 500;
+					}
+				}
+			}
+		}
+
+		@media screen and (max-width: 992px){
+				.main-menu{
+					.res-menu{
+						display: block;
+						text-align: right;
+						margin-top: -30px;
+					}
+					ul{
+						text-align: center;
+						display: none;
+						li{
+							display: block;
+							a{
+								padding: 10px 10px;
+							}
+						}
+					}
+				}
+			
+		}
+	}
+}

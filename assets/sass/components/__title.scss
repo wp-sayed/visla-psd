@@ -1,0 +1,33 @@
+/*section title center*/
+
+.section-title{
+	text-align: center;
+	color: $text-dark;
+	text-transform: uppercase;
+}
+
+.section-title h2 {
+	    color: $text-dark;
+		text-align: center;
+		margin: 44px 0px;
+}
+.section-title h2::after{
+	content: '';
+	display: block;
+	width: 80px;
+	height: 5px;
+	background: $button-bg;
+	position: absolute;
+	left: 45%;
+	margin: 5px 0px;
+
+}
+.content h2{
+	font-size: 18px;
+	margin: 15px  0px;
+}
+.content h2 span{
+	font-size: 14px;
+}
+
+/*section title start*/

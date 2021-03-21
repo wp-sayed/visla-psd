@@ -1,0 +1,19 @@
+
+@mixin clearfix{
+  &::after {
+  	content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+@mixin container{
+	width: 1150px;
+	margin: auto;
+}
+@mixin mid-con{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}

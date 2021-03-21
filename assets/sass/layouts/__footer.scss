@@ -1,0 +1,102 @@
+.footer{
+	  background: #202020;
+	  color: $text-white;
+	  padding: 40px 0px;
+	.footer-item-1{
+		h2{
+			color: $button-bg;
+			text-transform: capitalize;
+			font-size: 18px;
+			font-weight: 400;
+		}
+		p{
+			font-size: 14px;
+			color: #ccc;
+		}
+		span{
+			font-size: 14px;
+			color: #ccc;
+		}
+	}
+	.footer-item-2{
+		h2{
+			color: $text-white;
+			text-transform: capitalize;
+			font-size: 14px;
+			font-weight: 400;
+		}
+		ul{
+			li{
+				.active{
+					  color:  $button-bg;
+				   }
+				a{
+					color: #ccc;
+					transition: all 0.3s;
+				   
+				}
+			}
+		}
+	}
+
+	.footer-item-3{
+		h2{
+			color: $text-white;
+			text-transform: capitalize;
+			font-size: 14px;
+			font-weight: 400;
+		}
+		h5{
+			font-size: 12px;
+			color: #ccc;
+			line-height: 2;
+		}
+		span{
+			font-size: 12px;
+			color: #ccc;
+			line-height: 2;
+		}
+	}
+
+	.footer-item-4{
+		h3{
+			font-size: 12px;
+			color: #ccc;
+			line-height: 2;
+			margin-top: -6px;
+		}
+		small{
+			font-size: 12px;
+			color: #ccc;
+		}
+
+		form{
+			 .input{
+			    width: 100%;
+			    border: 1px solid #fff;
+			    height: 42px;
+			    outline: none!important;
+		  }
+		}
+	}
+}
+
+
+
+
+
+
+
+.bottom-footer{
+	background: $text-dark;
+	h5{
+		padding: 30px 0px;
+		color: #fff;
+		font-size: 14px;
+	}
+}
+
+.footer-item-2 ul li a:hover{
+	color: $button-bg;
+	text-decoration: underline;
+}
